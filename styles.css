@@ -1,0 +1,150 @@
+body{
+    background-image: url("img/Desertification.jpg");
+     background-size: cover;
+  
+}    
+
+h2{
+    position: relative;
+    left: 5vw;
+    margin-left: 20px;
+    margin-right: 80px;
+    font-size: 78pt;
+    font-family: 'Anton', sans-serif;
+    color: #580f0f;
+    text-align: center;
+     padding-top: 8px; 
+  }
+
+.treelabel{
+     position: fixed;
+     left: 0vw;
+     right: 0vw;
+     bottom: 55vh;
+     color: #660a26;
+     text-align: center;
+     font-size: 10vw;
+     font-family: 'Barlow', sans-serif;
+     margin-left: 300px;
+     margin-right: 300px;
+ 
+ }
+
+
+#button{
+    position: fixed ;
+    bottom: 65vh;
+    left: 40vw;
+    
+    background-color: #e47878;
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    color: mintcream;
+    font-size: 26pt;
+    border: #2c3e50;
+    border-radius: 1em;
+    border-style: none;
+    font-family: 'Concert One', cursive;
+} 
+
+ @media screen and (max-width: 400px) {
+  #button{
+  position: fixed;
+   
+    left: 10vw;
+  }
+} 
+/*  @media screen and (min-width: 400px) {
+  #button{
+  position: fixed;
+    bottom: 65vh;
+    left: 40vw;
+  }
+}  */
+/* RELATIVE BUTTON 
+ #button{  
+    position: relative ;
+    bottom: -20vh;
+    left: 0vw;
+    right: 1vw; 
+    background-color: #e47878;
+    padding-left: 0px;
+    padding-right: 200px;
+    color: mintcream;
+    font-size: 26pt;
+    border: #2c3e50;
+    border-radius: 1em;
+    border-style: none;
+    font-family: 'Concert One', cursive; 
+    margin-right: 1vw;
+    margin-left: 1vw;
+    
+}   
+*/
+
+#asterisk{
+  font-size: 8pt;
+  position: fixed ;
+  bottom: 0;
+  text-align: left;
+  color: #000;
+  font-family: 'Barlow', sans-serif;
+  padding-left: 2.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn{
+    border: 1px solid #2c3e50;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+  .btn3,.btn4{
+    color: #fff;
+  }
+  
+  
+  .btn3:hover,.btn4:hover{
+    color: #b793b4;
+  }
+  .btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #2c3e50;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  .btn1::before,.btn3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+  }
+  
+  .btn3::before,.btn4::before{
+    height: 180%;
+  }
+  
+  .btn3:hover::before,.btn4:hover::before{
+    height: 0%;
+  }

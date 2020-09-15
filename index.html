@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-32">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "description" content="A webpage to show how many trees are dying every moment to emphasize the need to protect the environemnt.">
+    <meta name= "author" content = "Vivek Alamuri">
+    <meta name= "keywords" content= "environemnt, trees, disaster, deforestation">
+    <meta name= "viewport" contgent= "width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>OurBreath</title>
+</head>
+
+<body >
+    <h2 class="begone" style="text-align: center;">How many trees died since you arrived on this page?</h2>
+    <button onclick="setInterval(addtrees,1000/4)"  id="button" class="begone btn btn3 " >Find Out!</button>
+    
+</body>
+
+<div id="hiddenmessage" style="display: none" >
+    <body>
+            <p class="treelabel" id = "label"></p>
+            <p id="message"></p>
+            <p id = "asterisk"><i>&nbsp;*This is an estimate only.</i></p>
+    </body>
+</div>
+
+
+
+</html> 
+

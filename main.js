@@ -13,7 +13,7 @@ const addtrees = ()=> {
 
 setTimeout(()=>{
     $('#btn-donate').fadeIn(350);
-},6000);
+},10000);
 
 //jQuery used to hide initial stuff onclick
 $(document).ready(()=>{

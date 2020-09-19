@@ -53,33 +53,7 @@ h2{
     left: 10vw;
   }
 } 
-/*  @media screen and (min-width: 400px) {
-  #button{
-  position: fixed;
-    bottom: 65vh;
-    left: 40vw;
-  }
-}  */
-/* RELATIVE BUTTON 
- #button{  
-    position: relative ;
-    bottom: -20vh;
-    left: 0vw;
-    right: 1vw; 
-    background-color: #e47878;
-    padding-left: 0px;
-    padding-right: 200px;
-    color: mintcream;
-    font-size: 26pt;
-    border: #2c3e50;
-    border-radius: 1em;
-    border-style: none;
-    font-family: 'Concert One', cursive; 
-    margin-right: 1vw;
-    margin-left: 1vw;
-    
-}   
-*/
+
 
 #asterisk{
   font-size: 12pt;

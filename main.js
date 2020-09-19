@@ -8,7 +8,12 @@ const addtrees = ()=> {
     trees();
     t = Math.ceil(t + constant/4);
     $('#label').text(t);
+    
 }
+
+setTimeout(()=>{
+    $('#btn-donate').fadeIn(350);
+},6000);
 
 //jQuery used to hide initial stuff onclick
 $(document).ready(()=>{

@@ -6,4 +6,4 @@ This is a web application written in HTML, CSS and JavaScript. As an overview, I
 
 Within the next decade, the UN predicts the human population to reach over 9 billion. This will only increase the burden on the environemnt and we only move closer to leaving the planet as a wreck. I do not mean to write this as a threat, but as a reminder that these are the facts. Tree cover MUST return to the planet to sequester carbon. 
 
-The fundamental fact is that "half our lungs are hanging out there" on the trees as Sadhguru said. What we exhale, they inhale and what they exhale, we inhale. Whatever you can, please do it so that we can leave the planet, if not better, at least as we received it.   
+The fundamental fact is that "half our lungs are hanging out there" on the trees as Sadhguru said. What we exhale, they inhale and what they exhale, we inhale. Whatever you can, please do it so that we can leave the planet in a state that is if not better, at least as we received it.   
